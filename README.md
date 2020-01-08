@@ -32,6 +32,17 @@ Data leiden clustering was performed using different number of princial componen
 20 Principal components
 ![alt text](https://github.com/IgnasMa/SynBioProject/blob/master/Graphs/clustering_20PCs.png)
 
+
+2020/01/08
+
+The data was count normalized - even though all the samples had a similar count coverage, total counts were normalized to 130k per sample.
+Highly variable genes were detected in the sample to make the clustering easier.
+Data was clustered using 10, 20, 30, 40, 50 PCs.
+Using more then 30 PCs yields similar results.
+Differential gene expression analysis was performed. It showed that BRCA sample single population segregation into two clusters yields no significant  expression fold change. 
+Visual inspection of gene expression in this topology ielded, that majority of genes are equally expressed in both clusters
+Based on this, clustering with 30 PCs was used (granularity, that merges one of the BRCA populations into single cluster). 
+Differential gene expression was performed and will by analyzed later.
 30 Principal components
 ![alt text](https://github.com/IgnasMa/SynBioProject/blob/master/Graphs/clustering_30PCs.png)
 
