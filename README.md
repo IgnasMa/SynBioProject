@@ -55,3 +55,14 @@ Differential gene expression was performed and will by analyzed later.
 1. Data, clustered with 30 and 50 PCs look the most correct, as the granuality of clustering matches the labels of cancer types (single type cancer samples (except BRCA cancer sample) are clustered into one cluster in gene expression space).
 2. BRCA cancer sample seems to form two populations and it clustered into two groups.
 3. Differential gene expression analysis must be carried out to understand if clustering inside single cancer type provides any additional information.
+
+
+2020/01/09
+
+Pearson correlation analysis was performed for each sample in the data set to asses the gene coverage and correlation.
+
+![alt text](https://github.com/IgnasMa/SynBioProject/blob/master/Graphs/correlation_heatmap.png)
+
+The correlation matrix heatmap shows 5 distinct clusters with higher correlation coeficient values. There clusters correspond to different cancer types and, as expected, have higher correlation among themselves.
+
+Additionally, it can be seen that all the samples have a >0.6 correlation value, which is a good sign. This shows that samples have been processed similarly and there is no strong technical noise that might bias the data
